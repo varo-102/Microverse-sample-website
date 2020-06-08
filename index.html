@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-       <div id="header-img"><img src="images/original.png">
+<head>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
         <nav id="nav-bar">
-            <a href="#">Feachures</a> |
-            <a href="#">How it Works</a> |
-            <a href="#">Pricing</a> |
-          </nav>  
+            <div id="header-img-wrapper">
+                <img class="header-img" src="images/original.png">
+            </div>
+            <div id="header-details-wrapper">
+                <a class="header-link" href="#">Feachures</a> |
+                <a class="header-link" href="#">How it Works</a> |
+                <a class="header-link" href="#">Pricing</a> |
+            </div>
+        </nav>
     </div>
-        <div id="header">Handcrafted, home-made masterpieces</div>
-        <input type="text" placeholder="Enter your email address">
+    <div id="header-lower">
+        <span class="header-lower-text">Handcrafted, home-made masterpieces</span>
+        <input class="header-lower-input" type="text" placeholder="Enter your email address">
         <br>
-        <button type="submit">GET STARTED</button>
-        <h3>Premium Materials</h3>
-           <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-        <h3>Fast Shipping</h3>
-           <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>    
-        <h3>Quality Assurance</h3>
-        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-    </body>
+        <button class="header-lower-btn" type="submit">GET STARTED</button>
+    </div>
+
+    <div class="product-body">
+        <div class="product-type">
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                purchase.</p>
+        </div>
+        <div class="product-type">
+            <h3>Fast Shipping</h3>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
+                you are not satisfied.</p>
+        </div>
+        <div class="product-type">
+            <h3>Quality Assurance</h3>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                pitch of your instrument.</p>
+        </div>
+    </div>
+</body>
+
 </html>
