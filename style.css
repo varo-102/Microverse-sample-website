@@ -58,3 +58,15 @@ body {
 .product-type {
     width: 50%;
 }
+
+.product-type-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.icon {
+    font-size: 35px;
+    display: flex !important;
+    align-items: center;
+    padding: 20px;
+}
